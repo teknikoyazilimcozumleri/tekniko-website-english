@@ -1,6 +1,6 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import JobBoardEntry from '../../components/JobBoardEntry.astro';
+import Layout from '../../../layouts/Layout.astro';
+import JobBoardEntry from '../../../components/JobBoardEntry.astro';
 
 const jobPostings = [
 	{
@@ -18,7 +18,7 @@ const jobPostings = [
 		<h1 class="text-3xl font-semibold leading-tight pl-10 m-0">İş İlanları</h1>
 		<div class="flex flex-col gap-6">
 			{jobPostings.map((jobPosting) => (
-				<JobBoardEntry jobPosting={jobPosting} href={`/career/${jobPosting.slug}`} />
+				<JobBoardEntry jobPosting={jobPosting} href={`/career/tr/${jobPosting.slug}`} />
 			))}
 		</div>
 	</div>
