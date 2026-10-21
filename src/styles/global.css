@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  /* 60% canvas: ice. 30% structure: navy text and slate. 10% accent: cyber, with mint only as a second focal mark. */
+  --color-navy: #0A192F;
+  --color-slate: #4A5D6E;
+  --color-cyber: #00E5FF;
+  --color-cyber-hover: #00b3cc;
+  --color-mint: #10B981;
+  --color-ice: #F8FAFC;
+
+  --font-family-serif: "Libre Baskerville", serif;
+  --font-family-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: var(--font-family-sans);
+  line-height: 1.6;
+}
