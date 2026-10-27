@@ -1,245 +1,234 @@
 ---
 import Layout from '../layouts/en/Layout.astro';
-import teknikohero from '../assets/teknikohero.svg';
-import teknikoinsurance from "../assets/teknikoinsurance.png"
-import teknikodashboards from "../assets/teknikodashboards.png"
+import office from "../assets/teknikoinsurance.png"
 ---
 
 <Layout>
-	<!-- Hero Section -->
 	<section id="hero" class="relative overflow-hidden bg-slate text-ice">
 		<div class="pointer-events-none absolute inset-0 bg-[linear-gradient(148deg,#243444_0%,#3c5162_36%,#4A5D6E_64%,#8b9faf_100%)]" aria-hidden="true"></div>
 		<div class="pointer-events-none absolute right-[4%] top-[64%] h-[28rem] w-[34rem] -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(248,250,252,0.22)_0%,rgba(16,185,129,0.12)_42%,transparent_72%)]" aria-hidden="true"></div>
 		<div class="relative mx-auto w-full max-w-[96rem] px-6 py-14 sm:px-10 lg:px-32 lg:py-36">
-			<div class="flex flex-col gap-12 lg:flex-row lg:items-center lg:gap-6">
+			<div class="flex flex-col gap-12 lg:flex-row lg:items-center lg:gap-16">
 				<div class="w-full min-w-0 lg:flex-1">
-					<h1 class="font-serif text-5xl font-bold tracking-tight leading-[1.05] lg:text-5xl">FinTech. InsurTech. <br>We bring the Solutions.</h1>
-					<p class="mt-6 max-w-md text-base leading-relaxed text-ice/75">Underwriting automation, autonomous ERP pipelines, and financial data systems for insurers, fintechs, and finance teams.</p>
+					<p class="m-0 text-xs font-semibold uppercase tracking-[0.22em] text-mint">ERP and e-invoicing</p>
+					<h1 class="mt-4 font-serif text-5xl font-bold tracking-tight leading-[1.05]">EU <span class="whitespace-nowrap">e-invoicing</span> compliance, without an ERP migration.</h1>
+					<p class="mt-6 max-w-xl text-base leading-relaxed text-ice/75">Tekniko Software Solutions connects the ERP you already run to structured electronic invoicing in 30 days. Your core system stays in place. Operations continue.</p>
 					<div class="mt-8 flex flex-wrap gap-3">
-						<a href="/#contact" class="inline-flex items-center gap-2 rounded-full bg-mint px-6 py-3 text-sm font-semibold text-navy transition-all duration-300 hover:brightness-110">Book a Technical Call <span aria-hidden="true">→</span></a>
-						<a href="/#services" class="inline-flex items-center rounded-full border border-ice/40 px-6 py-3 text-sm font-semibold text-ice transition-all duration-300 hover:border-ice">Our Services</a>
+						<a href="/#contact" class="inline-flex items-center gap-2 rounded-full bg-mint px-6 py-3 text-sm font-semibold text-navy transition-all duration-300 hover:brightness-110">Book a compatibility audit <span aria-hidden="true">→</span></a>
+						<a href="/#services" class="inline-flex items-center rounded-full border border-ice/40 px-6 py-3 text-sm font-semibold text-ice transition-all duration-300 hover:border-ice">How it works</a>
 					</div>
 					<ul class="m-0 mt-12 flex list-none flex-col gap-5 p-0 sm:flex-row sm:items-center">
 						<li class="flex items-center gap-3">
-							<svg class="h-5 w-5 shrink-0 text-ice" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 012-2h2a2 2 0 012 2M9 14l2 2 4-4"></path></svg>
-							<span class="text-sm leading-snug text-ice/90">Underwriting<br>Automation</span>
+							<svg class="h-5 w-5 shrink-0 text-ice" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+							<span class="text-sm leading-snug text-ice/90">30 days to a<br>live bridge</span>
 						</li>
 						<li class="hidden h-8 w-px bg-ice/25 sm:block" aria-hidden="true"></li>
 						<li class="flex items-center gap-3">
 							<svg class="h-5 w-5 shrink-0 text-ice" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 7h6v4H4zM14 13h6v4h-6zM10 9h2a3 3 0 010 6h-2"></path></svg>
-							<span class="text-sm leading-snug text-ice/90">Autonomous ERP<br>Pipelines</span>
+							<span class="text-sm leading-snug text-ice/90">ERP stays<br>in place</span>
 						</li>
 						<li class="hidden h-8 w-px bg-ice/25 sm:block" aria-hidden="true"></li>
 						<li class="flex items-center gap-3">
-							<svg class="h-5 w-5 shrink-0 text-ice" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 19V5M4 19h16M8 15l3-4 3 2 5-7"></path></svg>
-							<span class="text-sm leading-snug text-ice/90">Financial AI<br>&amp; Data</span>
+							<svg class="h-5 w-5 shrink-0 text-ice" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 012-2h2a2 2 0 012 2M9 14l2 2 4-4"></path></svg>
+							<span class="text-sm leading-snug text-ice/90">Outbound and<br>inbound invoices</span>
 						</li>
 					</ul>
 				</div>
-				<div class="w-full shrink-0 lg:w-[min(40rem,48%)] lg:translate-x-6 lg:translate-y-7">
-					<img src={teknikohero.src} alt="Policy files, invoices, and loss runs flowing into a verified financial ledger" class="block h-auto w-full" />
-				</div>
+				<ol class="m-0 w-full shrink-0 list-none space-y-4 rounded-3xl border border-ice/20 bg-navy/50 p-8 backdrop-blur-sm lg:w-[min(28rem,44%)]">
+					<li class="border-b border-ice/15 pb-4">
+						<p class="m-0 text-xs font-semibold uppercase tracking-[0.18em] text-mint">01 · Map</p>
+						<p class="m-0 mt-2 text-sm leading-relaxed text-ice/80">We read your database and transaction flows and align them to the European standard your buyers and tax authority require.</p>
+					</li>
+					<li class="border-b border-ice/15 pb-4">
+						<p class="m-0 text-xs font-semibold uppercase tracking-[0.18em] text-mint">02 · Integrate</p>
+						<p class="m-0 mt-2 text-sm leading-relaxed text-ice/80">An isolated bridge formats outgoing invoices and posts incoming supplier invoices into accounts payable.</p>
+					</li>
+					<li>
+						<p class="m-0 text-xs font-semibold uppercase tracking-[0.18em] text-mint">03 · Validate</p>
+						<p class="m-0 mt-2 text-sm leading-relaxed text-ice/80">End-to-end tests run against the official regulatory environment before anything is handed over.</p>
+					</li>
+				</ol>
 			</div>
 		</div>
 	</section>
 
-	<!-- About div -->
 	<div id="about">
-		<section id="engineering" class="py-32">
-			<div class="max-w-7xl mx-auto px-6">
-				<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
-					<div>
-						<h2 class="font-serif text-4xl font-bold mb-6 tracking-tight leading-tight">Engineering that already lives in finance and insurance</h2>
-						<p class="text-lg mb-8 text-slate leading-relaxed">
-							Tekniko Software Solutions builds software for insurers, fintechs, and finance teams.
-							We automate underwriting decisions, run ERP pipelines through close and reconciliation, and engineer the financial AI and data infrastructure behind pricing, risk, and reporting.
-						</p>
-					</div>
-					<div class="relative">
-						<img src={teknikoinsurance.src} alt="Tekniko Software Solutions Insurtech Solutions" class="w-full h-96 object-cover rounded-4xl" />
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Customer Experience -->
 		<section class="py-32">
 			<div class="max-w-7xl mx-auto px-6">
 				<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
-					<div class="lg:order-2">
-						<h2 class="font-serif text-4xl font-bold mb-6 tracking-tight leading-tight">Systems shaped around how you operate</h2>
-						<p class="text-lg mb-8 text-slate leading-relaxed">
-							We design around policy data, application files, reconciliation, and the finance close: the way your teams price risk, move money, and report on it.
-							Then we ship the software that keeps those processes running.
+					<div>
+						<h2 class="font-serif text-4xl font-bold mb-6 tracking-tight leading-tight">The mandate does not require a new ERP.</h2>
+						<p class="text-lg mb-6 text-slate leading-relaxed">
+							EU digital tax rules now require companies to issue and process structured electronic invoices. If the system of record cannot produce those formats, payments are rejected, supply chains stall, and penalties follow.
+						</p>
+						<p class="text-lg m-0 text-slate leading-relaxed">
+							Replacing Microsoft Dynamics NAV, Sage, or a proprietary system only to satisfy the tax authority is expensive and disruptive. The integration sits beside the ERP. The ledger you already trust stays the ledger.
 						</p>
 					</div>
 					<div class="relative">
-						<img src={teknikodashboards.src} alt="Software for finance and insurance operations" class="w-full h-96 object-cover rounded-lg" />
+						<img src={office.src} alt="Tekniko engineers reviewing an integration in the office" class="w-full h-96 object-cover rounded-4xl" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="pb-32">
+			<div class="max-w-7xl mx-auto px-6">
+				<div class="max-w-3xl mb-14">
+					<h2 class="font-serif text-4xl font-bold mb-6 tracking-tight leading-tight">For estates that are too costly to replace.</h2>
+					<p class="text-lg m-0 text-slate leading-relaxed">
+						We work with mid-market European manufacturers, wholesalers, and B2B distributors running on-premises, heavily customized, or legacy software.
+					</p>
+				</div>
+				<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+					<div class="rounded-2xl border border-slate/20 bg-white p-8">
+						<p class="m-0 text-xs font-semibold uppercase tracking-[0.18em] text-slate">Manufacturers</p>
+						<p class="mt-4 mb-0 text-base leading-relaxed text-navy">Plants and production groups whose invoicing still leaves the ERP as a document, not a structured message.</p>
+					</div>
+					<div class="rounded-2xl border border-slate/20 bg-white p-8">
+						<p class="m-0 text-xs font-semibold uppercase tracking-[0.18em] text-slate">Wholesalers</p>
+						<p class="mt-4 mb-0 text-base leading-relaxed text-navy">High invoice volume, where a rejected file stops payment and ties up the warehouse.</p>
+					</div>
+					<div class="rounded-2xl border border-slate/20 bg-white p-8">
+						<p class="m-0 text-xs font-semibold uppercase tracking-[0.18em] text-slate">B2B distributors</p>
+						<p class="mt-4 mb-0 text-base leading-relaxed text-navy">Older Dynamics NAV, Sage, and in-house systems that buyers and authorities no longer accept as-is.</p>
 					</div>
 				</div>
 			</div>
 		</section>
 	</div>
+
 	<div id="services" class="bg-navy">
 		<section class="pt-36 pb-8 text-center">
 			<div class="max-w-7xl mx-auto px-6">
-				<h2 class="font-serif text-4xl md:text-5xl text-ice font-bold mb-4 tracking-tight">FinTech and InsurTech, engineered end to end</h2>
-				<p class="text-lg mb-4 text-ice/75 leading-relaxed max-w-4xl mx-auto">Underwriting automation, autonomous ERP pipelines, financial AI and data engineering, and the production software around them.</p>
+				<h2 class="font-serif text-4xl md:text-5xl text-ice font-bold mb-4 tracking-tight">An isolated bridge, not a migration.</h2>
+				<p class="text-lg mb-4 text-ice/75 leading-relaxed max-w-3xl mx-auto">From the database you have today to a clean pass in the regulatory environment. Three steps, then handoff.</p>
 			</div>
 		</section>
 
-		<!-- Services Cards -->
 		<section class="pb-32">
 			<div class="max-w-7xl mx-auto px-6">
 				<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-					<div class="text-center p-6 rounded-lg">
-						<div class="w-16 h-16 bg-slate rounded-lg flex items-center justify-center mx-auto mb-6">
-							<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2"></path>
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5a2 2 0 012-2h2a2 2 0 012 2v0a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 14l2 2 4-4"></path>
-							</svg>
-						</div>
-						<h3 class="text-xl font-semibold mb-4 text-ice">InsurTech Underwriting Automation</h3>
-						<p class="text-medium text-ice/75 leading-relaxed">We automate intake, risk scoring, and decisioning so underwriters spend their time on exceptions. We build the workflows, models, and integrations between applications, policy data, and the decision.</p>
+					<div class="rounded-2xl border border-ice/10 p-8">
+						<p class="m-0 text-xs font-semibold uppercase tracking-[0.18em] text-mint">01</p>
+						<h3 class="mt-4 text-xl font-semibold mb-4 text-ice">Map the data</h3>
+						<p class="text-medium text-ice/75 leading-relaxed m-0">We review the database structure and the way transactions actually move, then map each field to the European standard required for compliant e-invoices.</p>
 					</div>
-					<div class="text-center p-6 rounded-lg">
-						<div class="w-16 h-16 bg-slate rounded-lg flex items-center justify-center mx-auto mb-6">
-							<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 7h6v4H4zM14 13h6v4h-6z"></path>
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 9h2a3 3 0 010 6h-2"></path>
-							</svg>
-						</div>
-						<h3 class="text-xl font-semibold mb-4 text-ice">Autonomous ERP Pipelines</h3>
-						<p class="text-medium text-ice/75 leading-relaxed">Close, reconciliation, and operational data should move without someone pushing each step. We design pipelines that pull from your systems of record, apply the rules your finance team already uses, and land clean entries where the ERP expects them.</p>
+					<div class="rounded-2xl border border-ice/10 p-8">
+						<p class="m-0 text-xs font-semibold uppercase tracking-[0.18em] text-mint">02</p>
+						<h3 class="mt-4 text-xl font-semibold mb-4 text-ice">Build the integration</h3>
+						<p class="text-medium text-ice/75 leading-relaxed m-0">The bridge is isolated from the ERP. It formats outgoing invoices automatically and routes incoming supplier invoices into the accounts payable ledger.</p>
 					</div>
-					<div class="text-center p-6 rounded-lg">
-						<div class="w-16 h-16 bg-slate rounded-lg flex items-center justify-center mx-auto mb-6">
-							<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 19V5M4 19h16"></path>
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 15l3-4 3 2 5-7"></path>
-							</svg>
-						</div>
-						<h3 class="text-xl font-semibold mb-4 text-ice">Financial AI &amp; Data Engineering</h3>
-						<p class="text-medium text-ice/75 leading-relaxed">Models are only as good as the financial data underneath them. We engineer pipelines, features, and AI systems for pricing, risk, fraud, and reporting, with the audit trail finance and compliance teams expect.</p>
+					<div class="rounded-2xl border border-ice/10 p-8">
+						<p class="m-0 text-xs font-semibold uppercase tracking-[0.18em] text-mint">03</p>
+						<h3 class="mt-4 text-xl font-semibold mb-4 text-ice">Validate, then deploy</h3>
+						<p class="text-medium text-ice/75 leading-relaxed m-0">We run end-to-end tests against the official regulatory environment and hand the integration over only after invoices pass cleanly.</p>
 					</div>
-					<div class="text-center p-6 rounded-lg">
-						<div class="w-16 h-16 bg-slate rounded-lg flex items-center justify-center mx-auto mb-6">
-							<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
-							</svg>
-						</div>
-						<h3 class="text-xl font-semibold mb-4 text-ice">FinTech &amp; InsurTech Software</h3>
-						<p class="text-medium text-ice/75 leading-relaxed">The platforms around those systems still have to ship: APIs, internal tools, integrations with core insurance and finance systems, and the interfaces operators use every day. We build that software with the same domain context.</p>
+					<div class="rounded-2xl border border-ice/10 p-8">
+						<p class="m-0 text-xs font-semibold uppercase tracking-[0.18em] text-mint">04</p>
+						<h3 class="mt-4 text-xl font-semibold mb-4 text-ice">Accounting-grade engineering</h3>
+						<p class="text-medium text-ice/75 leading-relaxed m-0">The work is led by an American technical founder, with a development center in Turkey. As the team behind Esentre, we already build on double-entry ledgers, transactional databases, and strict accounting workflows.</p>
 					</div>
 				</div>
 			</div>
 		</section>
 	</div>
-	<!-- Contact Form Section -->
-	<section id="contact" class="pt-36">
+
+	<section id="contact" class="pt-36 pb-8">
 		<div class="max-w-7xl mx-auto px-6">
 			<div class="text-center mb-16">
-				<h2 class="font-serif text-5xl font-bold mb-8 tracking-tight">Contact Us</h2>
-				<p class="text-lg mb-8 text-slate leading-relaxed max-w-4xl mx-auto">If underwriting, ERP, or financial data still depends on manual work, tell us where. We will scope the system with you.</p>
+				<h2 class="font-serif text-5xl font-bold mb-8 tracking-tight">Free 15-minute compatibility audit</h2>
+				<p class="text-lg mb-8 text-slate leading-relaxed max-w-3xl mx-auto">Tell us which ERP you run and where invoices fail. We will review the architecture and map the shortest path to compliant e-invoicing.</p>
 			</div>
-			
+
 			<div class="max-w-4xl mx-auto">
 				<form class="space-y-4" action="https://api.web3forms.com/submit" method="POST" id="form">
-					    <!-- Your Access key here. Don't worry this can be public -->
-						<input type="hidden" name="access_key" value="63935025-60ac-487b-8967-09aa7520c119">
-
-						<!-- Optional: Can be type="hidden" or type="text" for subject -->
-						<input type="hidden" name="subject" value="New Tekniko Website Submission">
-
-						<!-- Optional: From Name you want to see in the email
-							Default is "Notifications". you can overwrite here -->
-						<input type="hidden" name="from_name" value="Notifications">
-
-						<!-- Optional: Redirect URL after form submission -->
-						<input type="hidden" name="redirect" value="www.teknikoyazilimcozumleri.com">
+					<input type="hidden" name="access_key" value="63935025-60ac-487b-8967-09aa7520c119">
+					<input type="hidden" name="subject" value="ERP e-invoicing compatibility audit">
+					<input type="hidden" name="from_name" value="Notifications">
+					<input type="hidden" name="redirect" value="www.teknikoyazilimcozumleri.com">
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 						<div>
 							<label for="name" class="block text-sm font-medium text-slate mb-2">Name *</label>
-							<input 
-								type="text" 
-								id="name" 
-								name="name" 
-								required 
+							<input
+								type="text"
+								id="name"
+								name="name"
+								required
 								class="w-full px-4 py-3 bg-white border border-slate/40 text-navy rounded-lg focus:ring-2 focus:ring-cyber focus:border-transparent transition-all duration-200"
-								placeholder="Name and Surname"
+								placeholder="Name and surname"
 							/>
 						</div>
 						<div>
 							<label for="email" class="block text-sm font-medium text-slate mb-2">E-mail *</label>
-							<input 
-								type="email" 
-								id="email" 
-								name="email" 
-								required 
+							<input
+								type="email"
+								id="email"
+								name="email"
+								required
 								class="w-full px-4 py-3 bg-white border border-slate/40 text-navy rounded-lg focus:ring-2 focus:ring-cyber focus:border-transparent transition-all duration-200"
 								placeholder="example@email.com"
 							/>
 						</div>
 					</div>
-					
+
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 						<div>
-							<label for="company" class="block text-sm font-medium text-slate mb-2">Business</label>
-							<input 
-								type="text" 
-								id="company" 
-								name="company" 
+							<label for="company" class="block text-sm font-medium text-slate mb-2">Company</label>
+							<input
+								type="text"
+								id="company"
+								name="company"
 								class="w-full px-4 py-3 bg-white border border-slate/40 text-navy rounded-lg focus:ring-2 focus:ring-cyber focus:border-transparent transition-all duration-200"
-								placeholder="Your business name"
+								placeholder="Company name"
 							/>
 						</div>
 						<div>
 							<label for="phone" class="block text-sm font-medium text-slate mb-2">Phone</label>
-							<input 
-								type="tel" 
-								id="phone" 
-								name="phone" 
+							<input
+								type="tel"
+								id="phone"
+								name="phone"
 								class="w-full px-4 py-3 bg-white border border-slate/40 text-navy rounded-lg focus:ring-2 focus:ring-cyber focus:border-transparent transition-all duration-200"
-								placeholder="+1XXXXXXXXXX" 
+								placeholder="+1XXXXXXXXXX"
 							/>
 						</div>
 					</div>
-					
+
 					<div>
-						<label for="service" class="block text-sm font-medium text-slate mb-2">Service Type</label>
-						<select 
-							id="service" 
-							name="service" 
+						<label for="service" class="block text-sm font-medium text-slate mb-2">What should we review?</label>
+						<select
+							id="service"
+							name="service"
 							class="w-full px-4 py-3 bg-white border border-slate/40 text-navy rounded-lg focus:ring-2 focus:ring-cyber focus:border-transparent transition-all duration-200"
 						>
-							<option value="">Select a service</option>
-							<option value="underwriting-automation">InsurTech Underwriting Automation</option>
-							<option value="erp-pipelines">Autonomous ERP Pipelines</option>
-							<option value="financial-ai-data">Financial AI &amp; Data Engineering</option>
-							<option value="fintech-insurtech-software">FinTech &amp; InsurTech Software</option>
+							<option value="">Select a starting point</option>
+							<option value="compatibility-audit">Compatibility audit</option>
+							<option value="outgoing-einvoices">Outgoing e-invoices</option>
+							<option value="incoming-supplier-invoices">Incoming supplier invoices</option>
+							<option value="legacy-erp">Legacy or customized ERP</option>
 							<option value="other">Other</option>
 						</select>
 					</div>
-					
+
 					<div>
 						<label for="message" class="block text-sm font-medium text-slate mb-2">Message *</label>
-						<textarea 
-							id="message" 
-							name="message" 
-							rows="6" 
-							required 
+						<textarea
+							id="message"
+							name="message"
+							rows="6"
+							required
 							class="w-full px-4 py-3 bg-white border border-slate/40 text-navy rounded-lg focus:ring-2 focus:ring-cyber focus:border-transparent transition-all duration-200 resize-none"
-							placeholder="Tell us about the underwriting, ERP, or financial data process..."
+							placeholder="ERP name, version, and where invoices are rejected today."
 						></textarea>
 					</div>
-					
+
 					<div class="text-center">
-						<button 
-							type="submit" 
+						<button
+							type="submit"
 							class="inline-block px-12 py-4 bg-cyber text-navy font-semibold text-sm tracking-widest uppercase rounded-lg transition-all duration-300 hover:bg-cyber-hover hover:-translate-y-0.5 focus:ring-2 focus:ring-cyber focus:ring-offset-2"
 						>
-							Send Message
+							Request an audit
 						</button>
 					</div>
 				</form>
