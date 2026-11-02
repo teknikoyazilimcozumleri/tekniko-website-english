@@ -1,9 +1,15 @@
 ---
+import { getCollection } from 'astro:content';
 import tekniko_white from '../assets/tekniko_white.svg';
 
+const posts = await getCollection('posts');
 const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
-const englishHref = pathname === '/blog/posts/tr/strateji'
-	? '/blog/posts/strategy'
+const turkishPost = pathname.match(/^\/blog\/posts\/tr\/([^/]+)$/);
+const current = turkishPost
+	? posts.find((post) => post.data.lang === 'tr' && post.data.slug === turkishPost[1])
+	: undefined;
+const englishHref = current?.data.translation
+	? `/blog/posts/${current.data.translation}`
 	: pathname.startsWith('/blog/tr')
 		? '/blog'
 		: '/';
