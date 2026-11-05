@@ -54,6 +54,12 @@ const { title, image, tags = [] } = Astro.props;
 		margin: 0.35rem 0;
 	}
 
+	.blog-content :global(hr) {
+		margin: 2rem 0;
+		border: 0;
+		border-top: 1px solid color-mix(in srgb, var(--color-slate) 35%, white);
+	}
+
 	.blog-content :global(table) {
 		width: 100%;
 		margin: 0 0 1.5rem;
